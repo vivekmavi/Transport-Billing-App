@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.paras.transportmanagement.StartScreen">
+
+    <Button
+        android:id="@+id/deleteEntries_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:text="Delete Entries"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/addEntries_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/deleteEntries_btn"
+        android:layout_margin="5dp"
+        android:text="Add Entries"
+        android:textAllCaps="false" />
+    <TextView
+        android:id="@+id/options_Question_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/addEntries_btn"
+        android:layout_alignStart="@id/addEntries_btn"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="What would you like to do ?"
+        android:textSize="27sp" />
+
+
+    <Button
+        android:id="@+id/generateBill_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleteEntries_btn"
+        android:layout_margin="5dp"
+        android:text="Generate Bill"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/viewAllEntriess_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/generateBill_btn"
+        android:layout_below="@+id/generateBill_btn"
+        android:text="View all entries"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

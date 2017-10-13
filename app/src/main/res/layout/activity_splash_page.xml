@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paras.transportmanagement.SplashPage">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splashscreenloader"
+        android:id="@+id/gifImageView_splash" />
+
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gifImageView_splash"
+        android:layout_marginBottom="44dp"
+        android:text="Welcome to Transport Billing Application"
+        android:textColor="#fff"
+        android:maxLines="2"
+        android:textSize="30sp"/>
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gifImageView_splash"
+        android:layout_marginTop="21dp"
+        android:layout_alignStart="@+id/gifImageView_splash"
+        android:layout_alignEnd="@+id/gifImageView_splash" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Vivek Mavi"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/gifImageView_splash"
+        android:textColor="#fff"/>
+</RelativeLayout>

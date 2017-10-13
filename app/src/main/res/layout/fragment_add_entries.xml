@@ -1,0 +1,216 @@
+<LinearLayout
+
+    android:padding="@dimen/fab_margin12"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.paras.transportmanagement.AddEntriesFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add new entry here :"
+            style="@style/aadEntryStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehicle No :"
+                style="@style/aadEntryStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/vehicleNo_addfrag_tv"
+                style="@style/aadEntryStylesmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UP17T4993" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last entry date :"
+                style="@style/aadEntryStyle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last entry K.M :"
+                style="@style/aadEntryStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/lastEntryDate_addfrag_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01/02/2017"
+                style="@style/aadEntryStylesmall"/>
+            <TextView
+                android:id="@+id/lastEntryKM_addfrag_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="360"
+                style="@style/aadEntryStylesmall"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:text="New Entry Date :"
+                style="@style/aadEntryStyle"/>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:text="New Entry K.M. :"
+                style="@style/aadEntryStyle"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/newEntryDate_addfrag_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01/01/2017"
+                style="@style/aadEntryStylesmall"
+                android:inputType="date"
+                android:maxLines="1"/>
+
+            <EditText
+                android:id="@+id/newEntryKm_addfrag_ET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="360"
+                style="@style/aadEntryStylesmall"
+                android:inputType="number"
+                android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="right"
+        >
+        <CheckBox
+            android:id="@+id/busOnRoute_addfrag_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle on rest"
+            android:layout_marginRight="@dimen/fab_margin12"
+            style="@style/aadEntryStyle"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/clear_addfrag_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                style="@style/aadEntryStyle"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/exit_addfrag_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                style="@style/aadEntryStyle"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/save_addfrag_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                style="@style/aadEntryStyle"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/next_addfrag_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                style="@style/aadEntryStyle"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</LinearLayout>

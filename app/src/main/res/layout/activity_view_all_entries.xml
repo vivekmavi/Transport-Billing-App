@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:padding="@dimen/fab_margin12"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paras.transportmanagement.ViewAllEntries">
+    <TextView
+        android:id="@+id/vehicleNo_viewAllEnt_tv"
+        android:text="Vehicle no : XX17Y1234"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/aadEntryStyle"/>
+    <TextView
+        android:id="@+id/totalEntriesCount_viewAllEnt_tv"
+        android:text="Total no of entries = 0"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/aadEntryStyle"/>
+    <TextView
+        android:text="Entries :"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/aadEntryStyle"/>
+
+    <ListView
+        android:id="@+id/listView_viewAllEnt_lv"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/textviewStyleGrey"
+        android:divider="#FFCC00"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+        <Button
+            android:id="@+id/exit_viewAllEnt_btn"
+            android:text="Exit"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            />
+
+
+</LinearLayout>

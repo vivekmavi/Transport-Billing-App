@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vehicleNo">
+        <item>UP17T4993</item>
+        <item>UP17T1945</item>
+        <item>UP17T3752</item>
+        <item>UP17T8105</item>
+        <item>UP17T8106</item>
+        <item>UP17T8497</item>
+        <item>UP17T8498</item>
+        <item>UP17C8258</item>
+        <item>UP17AT0921</item>
+        <item>UP17BT5865</item>
+        <item>UP17BT5866</item>
+    </string-array>
+    <string-array name="model">
+        <item>2012</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2008</item>
+        <item>2014</item>
+        <item>2016</item>
+        <item>2016</item>
+    </string-array>
+    <string-array name="year">
+        <item>2012</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2015</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2016</item>
+        <item>2016</item>
+    </string-array>
+    <string-array name="depot">
+        <item>Bulandshahr</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+        <item>Kaushambi</item>
+    </string-array>
+    <string-array name="route">
+        <item>Bulandshahr to Kaushambi</item>
+        <item>Kaushambi to Garh Ganga</item>
+        <item>Kaushambi to Bulandshahr</item>
+        <item>Kaushambi to Khurja</item>
+        <item>Kaushambi to Bulandshahr</item>
+        <item>Kaushambi to Bulandshahr</item>
+        <item>Kaushambi to Bulandshahr</item>
+        <item>Kaushambi to Bulandshahr</item>
+        <item>Kaushambi to Meerut</item>
+        <item>Kaushambi to Bulandshahr</item>
+        <item>Kaushambi to Meerut</item>
+    </string-array>
+    <string-array name="defaultKilometer">
+        <item>360</item>
+        <item>336</item>
+        <item>336</item>
+        <item>364</item>
+        <item>360</item>
+        <item>360</item>
+        <item>360</item>
+        <item>360</item>
+        <item>342</item>
+        <item>360</item>
+        <item>342</item>
+    </string-array>
+
+</resources>

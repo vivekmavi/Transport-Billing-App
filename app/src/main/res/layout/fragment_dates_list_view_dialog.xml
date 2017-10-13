@@ -1,0 +1,32 @@
+<LinearLayout
+
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin12"
+    android:id="@+id/linearLO_LV2_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paras.transportmanagement.DatesListViewDialog">
+
+
+    <TextView
+        android:id="@+id/selectDateListV_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select date :"
+        android:textSize="@dimen/largeText"
+        android:textColor="@color/colorLightGrey"
+        />
+
+    <ListView
+        android:id="@+id/selectDate_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FFCC00"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+
+</LinearLayout>

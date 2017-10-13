@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paras.transportmanagement.WelcomeUser">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        android:layout_alignStart="@+id/welcome_user_imageView"
+        android:layout_alignEnd="@+id/welcome_user_imageView"
+        android:layout_above="@id/welcome_user_imageView"/>
+
+    <ImageView
+        android:id="@+id/welcome_user_imageView"
+        android:padding="5dp"
+        android:background="@color/colorBlack"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/userimage"
+        />
+
+    <TextView
+        android:id="@+id/showUserName_tV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/welcome_user_imageView"
+        android:layout_below="@+id/welcome_user_imageView"
+        android:layout_marginTop="20dp"
+        android:text="Vivek Mavi"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        android:layout_alignEnd="@+id/welcome_user_imageView" />
+
+    <ProgressBar
+        android:id="@+id/prgBar_welcomeUser"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/prgBar_welcomeUser"
+        android:layout_centerHorizontal="true"
+        android:text="loading entries" />
+
+</RelativeLayout>
